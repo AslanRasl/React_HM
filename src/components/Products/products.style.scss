@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.products-container {
+    max-width: 1550px;
+    margin: 155px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.products__text{
+    text-align: center;
+    align-items: center;
+    margin-top: 135px;
+    margin-left: 500px;
+    padding-right: 100px;
+    margin-bottom: 83px;
+}
+.products__title {
+    font-family: Roboto Slab;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 65.94px;
+    text-align: left;
+    color: rgba(34, 79, 52, 1);
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+.product__ul{
+    display: flex;
+    text-decoration: none;
+    gap: 100px;
+    text-align: center;
+    align-items: center;
+   margin-left: -25px;
+}
+.product__item{
+list-style: none;
+font-family: Poppins;
+font-size: 22px;
+font-weight: 500;
+line-height: 33px;
+text-align: left;
+text-transform: uppercase;
+color: rgba(34, 79, 52, 1);
+
+}
+.product__item:nth-child(2){
+    text-decoration: underline;     
+    color: rgba(34, 79, 52, 1);
+
+}
+
